@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "diversityoverhaul:item/celestial_ingot"
+  }
+}
