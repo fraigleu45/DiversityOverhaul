@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 600,
+  "experience": 7.2,
+  "group": "celestandhell",
+  "ingredient": {
+    "item": "diversityoverhaul:celestial_block"
+  },
+  "result": {
+    "id": "diversityoverhaul:hell_block"
+  }
+}

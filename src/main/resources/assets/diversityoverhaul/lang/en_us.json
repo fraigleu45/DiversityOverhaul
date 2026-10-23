@@ -1,5 +1,10 @@
 {
   "item.diversityoverhaul.celestial_ingot": "Celestial Ingot",
-  "item.diversityoverhaul.hell_ingot": "HELL Ingot"
+  "item.diversityoverhaul.hell_ingot": "Hell Ingot",
 
+  "block.diversityoverhaul.celestial_block": "Celestial Ingot Block",
+  "block.diversityoverhaul.hell_block": "Hell Ingot Block",
+
+  "creativetab.diversityoverhaul.celestial_items": "Celestials Items",
+  "creativetab.diversityoverhaul.hell_items": "Hells Items"
 }

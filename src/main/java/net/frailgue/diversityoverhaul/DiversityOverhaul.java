@@ -1,5 +1,7 @@
 package net.frailgue.diversityoverhaul;
 
+import net.frailgue.diversityoverhaul.block.ModBlocks;
+import net.frailgue.diversityoverhaul.item.ModCreativeModeTab;
 import net.frailgue.diversityoverhaul.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -38,7 +40,11 @@ public class DiversityOverhaul {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+
+        ModCreativeModeTab.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -60,8 +66,12 @@ public class DiversityOverhaul {
             event.accept(ModItems.CELESTINGOT);
             event.accept(ModItems.HELLINGOT);
         }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.CELESTBLOCK);
+            event.accept(ModBlocks.HELLBLOCK);
+        }
 
-    }
+}
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
