@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hell_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "diversityoverhaul:hell_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "diversityoverhaul:hell_ingot_from_blasting_hell_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hell_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "diversityoverhaul:hell_ingot_from_blasting_hell_ingot"
+    ]
+  }
+}

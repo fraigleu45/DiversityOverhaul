@@ -1,6 +1,7 @@
 package net.frailgue.diversityoverhaul.block;
 
 import net.frailgue.diversityoverhaul.DiversityOverhaul;
+import net.frailgue.diversityoverhaul.block.custom.CosmicBlock;
 import net.frailgue.diversityoverhaul.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -26,7 +27,8 @@ public static final DeferredBlock<Block> CELESTBLOCK = registerBlock( "celestial
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).sound(SoundType.AMETHYST)                 ));
 
-
+    public static final DeferredBlock<Block> COSMICBLOCK = registerBlock( "cosmic_block",
+            () -> new CosmicBlock(BlockBehaviour.Properties.of().strength(2f)));
 
 
 

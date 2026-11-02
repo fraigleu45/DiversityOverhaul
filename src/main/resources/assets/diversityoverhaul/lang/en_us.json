@@ -1,10 +1,23 @@
 {
   "item.diversityoverhaul.celestial_ingot": "Celestial Ingot",
   "item.diversityoverhaul.hell_ingot": "Hell Ingot",
+  "item.diversityoverhaul.chisel": "Chisel",
+  "item.diversityoverhaul.radish": "Radish",
+  "item.diversityoverhaul.shardcoal": "Shardcoal",
+  "item.diversityoverhaul.ultra_coal": "Ultra Coal",
+
 
   "block.diversityoverhaul.celestial_block": "Celestial Ingot Block",
   "block.diversityoverhaul.hell_block": "Hell Ingot Block",
+  "block.diversityoverhaul.cosmic_block": "Cosmic Block",
+
 
   "creativetab.diversityoverhaul.celestial_items": "Celestials Items",
-  "creativetab.diversityoverhaul.hell_items": "Hells Items"
+  "creativetab.diversityoverhaul.hell_items": "Hells Items",
+
+
+  "tooltip.diversityoverhaul.cosmic_block.tooltip": "§3Cosmic",
+  "tooltip.diversity.radish": "tkt bro",
+  "tooltip.diversity.chisel.shift_down": "Its A Chisel",
+  "tooltip.diversity.chisel": "§e Press Shift"
 }

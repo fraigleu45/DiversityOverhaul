@@ -27,6 +27,8 @@ public class ModCreativeModeTab {
 
                         output.accept(ModItems.CELESTINGOT);
                         output.accept(ModBlocks.CELESTBLOCK);
+                        output.accept(ModItems.CHISEL);
+                        output.accept(ModBlocks.COSMICBLOCK);
 
 
                     }).build());
@@ -39,7 +41,10 @@ public class ModCreativeModeTab {
 
                         output.accept(ModItems.HELLINGOT);
                         output.accept(ModBlocks.HELLBLOCK);
-
+                        output.accept(ModItems.RADISH);
+                        output.accept(ModItems.ULTRA_COAL);
+                        output.accept(ModItems.SHARDCOAL);
+              
 
                     }).build());
 

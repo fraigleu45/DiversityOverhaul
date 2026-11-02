@@ -1,0 +1,10 @@
+{
+  "values": {
+    "diversityoverhaul:shardcoal": {
+      "burn_time": 1200
+    },
+    "diversityoverhaul:ultra_coal": {
+      "burn_time": 2400
+    }
+  }
+}
