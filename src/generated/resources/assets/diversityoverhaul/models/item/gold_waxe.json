@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "diversityoverhaul:item/chisel"
+    "layer0": "diversityoverhaul:item/gold_waxe"
   }
 }

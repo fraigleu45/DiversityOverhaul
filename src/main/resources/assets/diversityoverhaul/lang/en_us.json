@@ -5,19 +5,39 @@
   "item.diversityoverhaul.radish": "Radish",
   "item.diversityoverhaul.shardcoal": "Shardcoal",
   "item.diversityoverhaul.ultra_coal": "Ultra Coal",
+  "item.diversityoverhaul.celest_sword": "Celestial_Sword",
+  "item.diversityoverhaul.celest_hoe": "Celestial_Hoe",
+  "item.diversityoverhaul.celest_pickaxe": "Celestial_Pickaxe",
+  "item.diversityoverhaul.celest_axe": "Celestial_Axe",
+  "item.diversityoverhaul.celest_shovel": "Celestial_Shovel",
+  "item.diversityoverhaul.diamond_chisel": "Diamond Plated Chisel",
+  "item.diversityoverhaul.saw": "Saw",
+  "item.diversityoverhaul.gold_waxe": "§6Gold Waxe",
+  "item.diversityoverhaul.diamond_saw": "Diamond Saw",
 
 
   "block.diversityoverhaul.celestial_block": "Celestial Ingot Block",
   "block.diversityoverhaul.hell_block": "Hell Ingot Block",
   "block.diversityoverhaul.cosmic_block": "Cosmic Block",
+  "block.diversityoverhaul.celestial_stairs": "Celestial Stairs",
+  "block.diversityoverhaul.celestial_slab": "Celestial Slab",
+  "block.diversityoverhaul.celestial_pressure_plate": "Celestial Pressure Plate",
+  "block.diversityoverhaul.celestial_button": "Celestial Button",
+  "block.diversityoverhaul.celestial_fence": "Celestial Fence",
+  "block.diversityoverhaul.celestial_fence_gate": "Celestial Fence Gate",
+  "block.diversityoverhaul.celestial_wall": "Celestial Wall",
+  "block.diversityoverhaul.celestial_door": "Celestial Door",
+  "block.diversityoverhaul.celestial_trapdoor": "Celestial Trapdoor",
+  "block.diversityoverhaul.golden_wood": "Golden Wood",
 
 
   "creativetab.diversityoverhaul.celestial_items": "Celestials Items",
   "creativetab.diversityoverhaul.hell_items": "Hells Items",
-
+  "creativetab.diversityoverhaul.items": "Items",
 
   "tooltip.diversityoverhaul.cosmic_block.tooltip": "§3Cosmic",
   "tooltip.diversity.radish": "tkt bro",
   "tooltip.diversity.chisel.shift_down": "Its A Chisel",
   "tooltip.diversity.chisel": "§e Press Shift"
 }
+

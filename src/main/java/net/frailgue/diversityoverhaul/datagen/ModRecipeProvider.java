@@ -33,8 +33,36 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CELESTINGOT.get(), 9)
                 .requires(ModBlocks.CELESTBLOCK);
 
-        oreSmelting(recipeOutput, HELL_SMELTABLES, RecipeCategory.MISC, ModItems.HELLINGOT.get(), 0.25f, 200, "bismuth");
-        oreBlasting(recipeOutput, HELL_SMELTABLES, RecipeCategory.MISC, ModItems.HELLINGOT.get(), 0.25f, 100, "bismuth");
+        oreSmelting(recipeOutput, HELL_SMELTABLES, RecipeCategory.MISC, ModItems.HELLINGOT.get(), 0.25f, 200, "celest");
+        oreBlasting(recipeOutput, HELL_SMELTABLES, RecipeCategory.MISC, ModItems.HELLINGOT.get(), 0.25f, 100, "celest");
+
+
+        stairBuilder(ModBlocks.CELESTBLOCK_STAIRS.get(), Ingredient.of(ModItems.CELESTINGOT));
+
+
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CELESTBLOCK_SLAB.get(), ModItems.CELESTINGOT.get());
+
+        buttonBuilder(ModBlocks.CELESTBLOCK_BUTTON.get(), Ingredient.of(ModItems.CELESTINGOT.get())).group("celest")
+                .unlockedBy("has_celest", has(ModItems.CELESTINGOT.get())).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.CELESTBLOCK_PRESSURE_PLATE.get(), ModItems.CELESTINGOT.get());
+
+        fenceBuilder(ModBlocks.CELESTBLOCK_FENCE.get(), Ingredient.of(ModItems.CELESTINGOT.get())).group("celest")
+                .unlockedBy("has_celest", has(ModItems.CELESTINGOT.get())).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.CELESTBLOCK_FENCE_GATE.get(), Ingredient.of(ModItems.CELESTINGOT.get())).group("celest")
+                .unlockedBy("has_celest", has(ModItems.CELESTINGOT.get())).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CELESTBLOCK_WALL.get(), ModItems.CELESTINGOT.get());
+
+        doorBuilder(ModBlocks.CELESTBLOCK_DOOR.get(), Ingredient.of(ModItems.CELESTINGOT.get())).group("celest")
+                .unlockedBy("has_celest", has(ModItems.CELESTINGOT.get())).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.CELESTBLOCK_TRAPDOOR.get(), Ingredient.of(ModItems.CELESTINGOT.get())).group("celest")
+                .unlockedBy("has_celest", has(ModItems.CELESTINGOT.get())).save(recipeOutput);
+
+
+
+
+
+
+
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

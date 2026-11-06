@@ -6,6 +6,7 @@ import net.frailgue.diversityoverhaul.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -27,6 +28,26 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(Items.COAL)
                 .add(Items.STICK)
                 .add(Items.COMPASS);
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.CELEST_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.CELEST_PICKAXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.CELEST_SHOVEL.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.CELEST_AXE.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.CELEST_HOE.get());
+
+
+
+
+
+
+
+
+
 
     }
 }

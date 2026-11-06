@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "celest",
+  "key": {
+    "#": {
+      "item": "diversityoverhaul:celestial_ingot"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "diversityoverhaul:celestial_door"
+  }
+}

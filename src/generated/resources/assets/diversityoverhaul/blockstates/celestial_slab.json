@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "diversityoverhaul:block/celestial_slab"
+    },
+    "type=double": {
+      "model": "diversityoverhaul:block/celestial_block"
+    },
+    "type=top": {
+      "model": "diversityoverhaul:block/celestial_slab_top"
+    }
+  }
+}

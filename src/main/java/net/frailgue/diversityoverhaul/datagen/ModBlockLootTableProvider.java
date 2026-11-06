@@ -29,12 +29,33 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.CELESTBLOCK.get());
         // dropSelf(ModBlocks.MAGIC_BLOCK.get());
 
+        dropSelf(ModBlocks.GOlDENWOOD.get());
+        // dropSelf(ModBlocks.MAGIC_BLOCK.get());
+
 
         add(ModBlocks.COSMICBLOCK.get(),
                 block -> createMultipleOreDrops(ModBlocks.COSMICBLOCK.get(), ModItems.RADISH.get(), 2, 5));
 
         add(ModBlocks.HELLBLOCK.get(),
                 block -> createMultipleOreDrops(ModBlocks.HELLBLOCK.get(), ModItems.HELLINGOT.get(), 2, 5));
+
+        dropSelf(ModBlocks.CELESTBLOCK_STAIRS.get());
+        add(ModBlocks.CELESTBLOCK_SLAB.get(),
+             block -> createSlabItemTable(ModBlocks.CELESTBLOCK_SLAB.get()));
+
+        dropSelf(ModBlocks.CELESTBLOCK_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.CELESTBLOCK_BUTTON.get());
+
+        dropSelf(ModBlocks.CELESTBLOCK_FENCE.get());
+        dropSelf(ModBlocks.CELESTBLOCK_FENCE_GATE.get());
+        dropSelf(ModBlocks.CELESTBLOCK_WALL.get());
+        dropSelf(ModBlocks.CELESTBLOCK_TRAPDOOR.get());
+
+        add(ModBlocks.CELESTBLOCK_DOOR.get(),
+               block -> createDoorTable(ModBlocks.CELESTBLOCK_DOOR.get()));
+
+
+
 
     }
 

@@ -27,8 +27,21 @@ public class ModCreativeModeTab {
 
                         output.accept(ModItems.CELESTINGOT);
                         output.accept(ModBlocks.CELESTBLOCK);
-                        output.accept(ModItems.CHISEL);
                         output.accept(ModBlocks.COSMICBLOCK);
+                        output.accept(ModBlocks.CELESTBLOCK_STAIRS);
+                        output.accept(ModBlocks.CELESTBLOCK_SLAB);
+                        output.accept(ModBlocks.CELESTBLOCK_PRESSURE_PLATE);
+                        output.accept(ModBlocks.CELESTBLOCK_BUTTON);
+                        output.accept(ModBlocks.CELESTBLOCK_FENCE);
+                        output.accept(ModBlocks.CELESTBLOCK_FENCE_GATE);
+                        output.accept(ModBlocks.CELESTBLOCK_WALL);
+                        output.accept(ModBlocks.CELESTBLOCK_DOOR);
+                        output.accept(ModBlocks.CELESTBLOCK_TRAPDOOR);
+                        output.accept(ModItems.CELEST_SWORD);
+                        output.accept(ModItems.CELEST_AXE);
+                        output.accept(ModItems.CELEST_PICKAXE);
+                        output.accept(ModItems.CELEST_SHOVEL);
+                        output.accept(ModItems.CELEST_HOE);
 
 
                     }).build());
@@ -45,6 +58,24 @@ public class ModCreativeModeTab {
                         output.accept(ModItems.ULTRA_COAL);
                         output.accept(ModItems.SHARDCOAL);
               
+
+                    }).build());
+
+
+    public static final Supplier<CreativeModeTab> DIVERSITYTABE = CREATIVE_MODE_TAB.register("diverstity_overhaul_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CHISEL.get()))
+                    .title(Component.translatable("creativetab.diversityoverhaul.items"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(DiversityOverhaul.MOD_ID, "diverstity_overhaul_tabc"))
+                    .displayItems((itemDisplayParameters, output) -> {
+
+
+                        output.accept(ModItems.DCHISEL);
+                        output.accept(ModItems.CHISEL);
+                        output.accept(ModItems.SAW);
+                        output.accept(ModItems.GOLDWAXE);
+                        output.accept(ModBlocks.GOlDENWOOD);
+                        output.accept(ModItems.DSAW);
+
 
                     }).build());
 

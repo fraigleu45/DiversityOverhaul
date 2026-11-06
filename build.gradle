@@ -27,6 +27,11 @@ sourceSets.main.resources {
 }
 
 repositories {
+
+    maven {
+        name = "RedlanceMinecraft"
+        url = uri("https://repo.redlance.org/public")
+    }
     // Add here additional repositories if required by some of the dependencies below.
 }
 
@@ -137,6 +142,21 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+
+    implementation("com.zigythebird.playeranim:PlayerAnimationLibNeo:1.1.6+mc.1.21.1")
+
+
+}
+configurations.all {
+    resolutionStrategy {
+        force 'com.google.code.gson:gson:2.10.1'
+        force 'org.slf4j:slf4j-api:2.0.13'
+        force 'it.unimi.dsi:fastutil:8.5.12'
+
+        // AJOUTEZ CETTE LIGNE POUR NETTY
+        force 'io.netty:netty-buffer:4.1.97.Final'
+    }
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

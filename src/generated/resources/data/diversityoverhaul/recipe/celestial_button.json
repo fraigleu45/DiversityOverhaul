@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "celest",
+  "ingredients": [
+    {
+      "item": "diversityoverhaul:celestial_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "diversityoverhaul:celestial_button"
+  }
+}
